@@ -161,11 +161,17 @@ Delete a UserRepository:
     $this->userRepository->delete($id);
     
 #Contact
+
 Open an issue on GitHub if you have any problems or suggestions.
+
 #License
+
 The contents of this repository is released under the [MIT license](https://opensource.org/licenses/MIT)
 
 #Visit Our Website
+
 [www.laradevsbd.com](https://laradevsbd.com/)
+
 #Conclusion
+
 I am trying to help another artisan to complete their project by using a repository, which they wanna use to Laravel contract. This makes applications much easier to maintain.
