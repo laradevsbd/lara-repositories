@@ -3,9 +3,9 @@
 [![Forks](https://img.shields.io/github/forks/laradevsbd/lara-repositories.svg?style=flat-square)](https://github.com/laradevsbd/lara-repositories/network/members)
 
 
-Laravel **Repositories** is a package for Laravel  which is used to abstract the database layer.
+Laravel <span style="color:orange;"> **Repositories**</span>  is a package for Laravel  which is used to abstract the database layer.
 
-#####This package is compatible with Laravel  7.* 8.* 9.*
+##### This package is compatible with Laravel  7.* 8.* 9.*
 
 ###### Installation
 
