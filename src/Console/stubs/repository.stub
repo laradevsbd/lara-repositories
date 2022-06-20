@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Repositories;
+use Laradevsbd\Repository\Repositories\BaseRepository;
 
 class DummyClass extends BaseRepository
 {

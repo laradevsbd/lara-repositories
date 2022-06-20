@@ -14,9 +14,9 @@ class LaradevsbdRepositoryServiceProvider extends ServiceProvider{
                 MakeRepository::class
             ]);
         }
-        $this->publishes([
-            __DIR__.'/Repositories/BaseRepository.php'=>app_path('Repositories/BaseRepository.php')
-        ]);
+//        $this->publishes([
+//            __DIR__.'/Repositories/BaseRepository.php'=>app_path('Repositories/BaseRepository.php')
+//        ]);
     }
 
     public function register()

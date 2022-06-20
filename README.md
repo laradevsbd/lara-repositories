@@ -21,17 +21,7 @@ Once this operation completes, the final step is to add the service provider. Op
     
         ]
         
-       
-
-Now, you need to publish service provider for extend **App\Repositories\BaseRepository.php**
-
-
-    php artisan vendor:publish
-   
-    or
-    
-    php artisan vendor:publish --provider="Laradevsbd\Repository\LaradevsbdRepositoryServiceProvider"
-    
+           
 # Usages
 
 ##### Create an console class
@@ -84,7 +74,7 @@ Now Check directory **App\Repositories\UserRepository.php** and add the model cl
     }
     
  
- Finally, Implement into **UserRepository** into **UserController**
+ Finally, Implement  **UserRepository** into **UserController**
  
         <?php
         
@@ -143,20 +133,20 @@ The following methods are available:
 
 # Example
 
-Create a new UserRepository:
+Create a new User:
 
     $this->userRepository->create(Input::all());
     
-Update a UserRepository:
+Update a user:
 
     $this->userRepository->update(Input::all(),$id);
     
-Find a UserRepository:
+Find a user:
 
     $this->userRepository->find($id);
     
     
-Delete a UserRepository:
+Delete a user:
 
     $this->userRepository->delete($id);
     
