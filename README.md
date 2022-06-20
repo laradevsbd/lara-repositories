@@ -35,6 +35,8 @@ Now Check directory **App\Repositories\UserRepository.php** and add the model cl
     <?php
     
     namespace App\Repositories;
+    use Laradevsbd\Repository\Repositories\BaseRepository;
+    use App\Models\User;
     
     class UserRepository extends BaseRepository
     {
