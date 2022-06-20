@@ -17,7 +17,7 @@ Once this operation completes, the final step is to add the service provider. Op
     'providers' => [
     
             // .........................
-            \Laradevsbd\Repository\LaradevsbdRepositoryServiceProvider::class,,
+            \Laradevsbd\Repository\LaradevsbdRepositoryServiceProvider::class,
     
         ]
         
