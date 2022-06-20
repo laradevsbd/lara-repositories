@@ -131,7 +131,7 @@ Now Check directory **App\Repositories\UserRepository.php** and add the model cl
             }
         }
 
-#Available Methods
+# Available Methods
 The following methods are available:
 
     public function all($columns = array('*'))
@@ -141,7 +141,7 @@ The following methods are available:
     public function delete($id)
     public function find($id, $columns = array('*'))
 
-#Example
+# Example
 
 Create a new UserRepository:
 
@@ -160,18 +160,18 @@ Delete a UserRepository:
 
     $this->userRepository->delete($id);
     
-#Contact
+# Contact
 
 Open an issue on GitHub if you have any problems or suggestions.
 
-#License
+# License
 
 The contents of this repository is released under the [MIT license](https://opensource.org/licenses/MIT)
 
-#Visit Our Website
+# Visit Our Website
 
 [www.laradevsbd.com](https://laradevsbd.com/)
 
-#Conclusion
+# Conclusion
 
 I am trying to help another artisan to complete their project by using a repository, which they wanna use to Laravel contract. This makes applications much easier to maintain.
