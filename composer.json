@@ -1,0 +1,19 @@
+{
+    "name": "laradevsbd/repository",
+    "description": "This package will be help to create repository file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nur Karim",
+            "email": "nurkarim772@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laradevsbd\\Repository\\": "src/"
+        }
+    }
+}

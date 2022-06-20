@@ -1,0 +1,31 @@
+<?php
+
+namespace App\Repositories;
+
+class DummyClass extends BaseRepository
+{
+    /**
+     * @return string
+     *  Return the model
+     */
+     //php artisan make:repository repositoryName
+    public function model()
+    {
+        //return YourModel::class;
+    }
+
+    public function getFieldsSearchable()
+    {
+            // TODO: Implement getFieldsSearchable() method.
+    }
+
+    public function store($input)
+    {
+            // TODO: Implement
+    }
+
+    public function update($input, $id)
+    {
+            // TODO: Implement
+    }
+}
