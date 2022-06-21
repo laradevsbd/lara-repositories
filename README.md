@@ -9,7 +9,7 @@ Laravel <span style="color:orange;"> **Repositories**</span>  is a package for L
 
 ###### Installation
 
-    composer require laradevsbd/lara-repositories
+    composer require laradevsbd/repository
 
 
 Once this operation completes, the final step is to add the service provider. Open config/app.php, and add a new item to the providers array.
